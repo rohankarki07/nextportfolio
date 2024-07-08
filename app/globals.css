@@ -81,6 +81,9 @@
     color: #938780;
   }
 
+  .name {
+    font-size: 70px;
+  }
   .big {
     font-size: 49px;
   }
