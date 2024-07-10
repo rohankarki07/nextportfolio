@@ -6,14 +6,14 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className="p-6 w-full">
+      <div className="p-6 w-full body-text">
         <div className="flex justify-between w-full">
           <h1 className="name text-center mb-4">
             Rohan <br />
             Karki
           </h1>
-          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-            <div className="w-44 h-44">
+          <div className="grid   grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+            <div className="w-44 h-44 hidden sm:block ">
               <Image
                 src="/images/design.png"
                 alt="images"
@@ -22,7 +22,7 @@ const page = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="w-44 h-44">
+            <div className="w-44 h-44 hidden sm:block">
               <Image
                 src="/images/boudha.png"
                 alt="images"
@@ -31,7 +31,7 @@ const page = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="w-44 h-44">
+            <div className="w-44 h-44 hidden sm:block">
               <Image
                 src="/images/taragaon.png"
                 alt="images"
@@ -40,7 +40,7 @@ const page = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="w-44 h-44">
+            <div className="w-44 h-44 hidden sm:block">
               <Image
                 src="/images/dog.jpg"
                 alt="images"

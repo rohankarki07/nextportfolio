@@ -112,4 +112,8 @@
   .body-text {
     color: #131b28;
   }
+
+  .blog-hover:hover {
+    color: #938780;
+  }
 }

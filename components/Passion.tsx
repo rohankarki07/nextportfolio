@@ -3,8 +3,8 @@ import Image from "next/image";
 const Passion = () => {
   return (
     <>
-      <div className="flex items-center justify-between">
-        <div className="w-1/2 flex gap-3 flex-col">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="sm:w-1/2 w-full flex gap-3 flex-col">
           <div>
             <p className="card-text h4">THINGS I LOVE</p>
           </div>
@@ -14,7 +14,7 @@ const Passion = () => {
             <p>Nature</p>
           </div>
         </div>
-        <div className="w-1/2 flex justify-end">
+        <div className="sm:w-1/2 w-full flex justify-start sm:justify-end">
           <div>
             <Image
               src="/images/ramen.JPG"

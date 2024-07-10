@@ -3,17 +3,17 @@ import Image from "next/image";
 const Intro = () => {
   return (
     <>
-      <div className="flex justify-between gap-4 items-center">
-        <div className="w-1/2">
+      <div className="flex flex-col sm:flex-row gap-4 items-center">
+        <div className="sm:w-1/2 w-full">
           <Image
             src="/images/fightclub.png"
             alt="mine"
             width={400}
             height={400}
-            className="rounded-lg"
+            className="rounded-lg flex items-start"
           />
         </div>
-        <div className="w-1/2 flex flex-col gap-4">
+        <div className="sm:w-1/2 w-full flex flex-col gap-4">
           <h1 className="card-text">INFO</h1>
           <p>
             I've been crafting digital spaces where users enjoy navigating,

@@ -15,7 +15,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-          <Link href="#" className="flex items-center">
+          <Link href="/fun" className="flex items-center">
             Fun
           </Link>
         </li>
