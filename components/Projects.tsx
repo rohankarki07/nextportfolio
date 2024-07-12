@@ -6,20 +6,20 @@ const projectData = [
   {
     name: "Saral Sewa",
     description: "Service Booking",
-    logo: "/images/saralsewa.JPG",
+    logo: "/images/saralsewa.png",
     links: "https://saralsewa.vercel.app",
   },
   // { name: "Loop", description: "Video Conferencing", logo: "/logo.svg" },
   {
     name: "Echo",
     description: "Threads Post",
-    logo: "/images/apimovie.jpg",
+    logo: "/images/echo.svg",
     links: "https://echo-social-media.vercel.app",
   },
   {
     name: "Movie Search",
     description: "Movie fetched from open API",
-    logo: "/images/apimovie.jpeg",
+    logo: "/images/movie.png",
     links: "https://movie-rohan.vercel.app",
   },
 
@@ -43,7 +43,12 @@ const Projects = () => {
               target="_blank"
               className="flex items-center h-80 justify-center rounded-md p-14 background-surface drop-shadow-lg"
             >
-              <h3 className="h3">{project.name}</h3>
+              <Image
+                src={project.logo}
+                alt={project.name}
+                width="140"
+                height="140"
+              />{" "}
             </Link>
             <div className="flex flex-col gap-2 mt-5">
               <p>{project.name}</p>

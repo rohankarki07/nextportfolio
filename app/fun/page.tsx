@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { topics } from "./[id]/data"; // Adjust the import path based on your project structure
+import Image from "next/image";
 
 const Page = () => {
   return (

@@ -1,6 +1,7 @@
 import Education from "@/components/Education";
 import Intro from "@/components/Intro";
 import Passion from "@/components/Passion";
+import Tech from "@/components/Tech";
 import Image from "next/image";
 
 const page = () => {
@@ -56,6 +57,9 @@ const page = () => {
         </div>
         <hr className="h-6 mt-8 mb-8 border-[#898D94]" />
         <Education />
+        <div className="mt-16">
+          <Tech />
+        </div>
         <div className="mt-16">
           <Passion />
         </div>
