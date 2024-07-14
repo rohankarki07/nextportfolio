@@ -1,10 +1,13 @@
 import Projects from "@/components/Projects";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="p-6">
-      <div className=" h2">
-        Hello there,<sup className="body">//rohan</sup>
+      <div className="h2">
+        Hello there,
+        <sup className="body">
+          <span>rohan</span>
+        </sup>
       </div>
       <div className="h2 mt-7">
         Rohan is a frontend React and Next.js developer focused on creating
@@ -17,4 +20,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

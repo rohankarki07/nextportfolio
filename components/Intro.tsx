@@ -16,7 +16,7 @@ const Intro = () => {
         <div className="sm:w-1/2 w-full flex flex-col gap-4">
           <h1 className="card-text">INFO</h1>
           <p>
-            I've been crafting digital spaces where users enjoy navigating,
+            I&apos;ve been crafting digital spaces where users enjoy navigating,
             always striving to curate an engaging and intuitive experience.
             Transitioning my career towards frontend development using React and
             Next.js, I sought to design at larger and faster scales, where the
@@ -26,11 +26,11 @@ const Intro = () => {
           <p>
             In the digital realm, people scroll through interfaces instead of
             strolling through spaces. My background in architecture gives me a
-            unique advantage as I've evolved from an architectural enthusiast
-            into a frontend developer focused on crafting visually appealing and
-            highly interactive web experiences. I'm passionate about selecting
-            the perfect color palettes and paying attention to detail to create
-            engaging user interfaces.
+            unique advantage as I&apos;ve evolved from an architectural
+            enthusiast into a frontend developer focused on crafting visually
+            appealing and highly interactive web experiences. I&apos;m
+            passionate about selecting the perfect color palettes and paying
+            attention to detail to create engaging user interfaces.
           </p>
         </div>
       </div>
