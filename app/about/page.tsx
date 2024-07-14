@@ -43,7 +43,7 @@ const page = () => {
             </div>
             <div className="w-44 h-44 hidden sm:block">
               <Image
-                src="/images/dog.jpg"
+                src="/images/dog.JPG"
                 alt="images"
                 width={150}
                 height={150}

@@ -18,7 +18,7 @@ const Education = () => {
           <div className="w-fit flex flex-col gap-2 justify-end ">
             <div className="flex items-end">
               <Image
-                src="/images/court.jpg"
+                src="/images/court.JPG"
                 alt="basketballcourt"
                 width={400}
                 height={400}
