@@ -116,4 +116,8 @@
   .blog-hover:hover {
     color: #938780;
   }
+
+  .nav-hover:hover {
+    color: #57574a;
+  }
 }

@@ -13,7 +13,7 @@ export const topics = [
   },
   {
     id: 3,
-    title: "Don't Trust Copilot Blindly👨🏻‍🦯",
+    title: "Don't Trust Copilot Blindly 👨🏻‍🦯",
     description:
       "Copilot generates code based on patterns it has learned, but it doesn’t understand the specific requirements of your project. This can lead to subtle bugs, security vulnerabilities, or non-optimal solutions. Always review and test the code it suggests, ensuring it aligns with your project's best practices and unique needs. Remember, Copilot is a helper, not a replacement for your expertise and critical thinking.",
     image: "/images/copilotmeme.png",

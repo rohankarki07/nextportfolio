@@ -10,19 +10,19 @@ const Sidebar = () => {
       </Link>
       <ul className="space-y-2 text-xl w-36">
         <li>
-          <Link href="/about" className="flex items-center">
+          <Link href="/about" className="flex items-center nav-hover">
             About
           </Link>
         </li>
         <li>
-          <Link href="/fun" className="flex items-center">
+          <Link href="/fun" className="flex items-center nav-hover">
             Fun
           </Link>
         </li>
         <li>
           <a
             href="/cv.pdf"
-            className="flex items-center"
+            className="flex items-center nav-hover"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +38,7 @@ const Sidebar = () => {
         <li>
           <Link
             href="mailto:rohankarki.it@gmail.com"
-            className="flex items-center"
+            className="flex items-center nav-hover"
           >
             Gmail
           </Link>
@@ -47,7 +47,7 @@ const Sidebar = () => {
           <Link
             href="https://www.linkedin.com/in/rohan-karki"
             target="_blank"
-            className="flex items-center"
+            className="flex items-center nav-hover"
           >
             LinkedIn
           </Link>
@@ -56,7 +56,7 @@ const Sidebar = () => {
           <Link
             href="https://github.com/rohankarki07"
             target="_blank"
-            className="flex items-center"
+            className="flex items-center nav-hover"
           >
             GitHub
           </Link>
