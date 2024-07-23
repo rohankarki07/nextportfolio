@@ -9,6 +9,7 @@ const Tech = () => {
         <div className="flex flex-col justify-start items-start gap-1">
           <h4 className="h4">RiddhaSoft Pvt.Ltd.</h4>
           <p>August 2023 - December 2023</p>
+          <p>Internship</p>
         </div>
       </div>
       <div>
@@ -19,9 +20,9 @@ const Tech = () => {
               <h3 className="h4 mb-2">Framework & Library</h3>
               <ul className="flex flex-col gap-3">
                 <li>MERN Stack</li>
-                <li>UI/UX:Figma</li>
+                <li>NextJs</li>
+                <li>Figma</li>
                 <li>Tailwind</li>
-                <li>Shadcn</li>
               </ul>
             </div>
             <div>
