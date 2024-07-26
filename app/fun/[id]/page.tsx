@@ -49,11 +49,11 @@ const Page: React.FC<PageProps> = ({ params }) => {
       <h2 className="h2">{data.title}</h2>
       <div className="mt-3">{data.description}</div>
 
-      <div className="mt-5 relative w-[250px] h-[250px]">
-        {loading && (
-          <Skeleton className="absolute top-0 left-0 w-full h-full rounded-md bg-gray-300" />
-        )}
-        {data.image && (
+      {data.image && (
+        <div className="mt-5 relative w-[250px] h-[250px]">
+          {loading && (
+            <Skeleton className="absolute top-0 left-0 w-full h-full rounded-md bg-gray-300" />
+          )}
           <Image
             src={data.image}
             alt={data.title}
@@ -64,8 +64,8 @@ const Page: React.FC<PageProps> = ({ params }) => {
             }`}
             onLoadingComplete={() => setLoading(false)}
           />
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };

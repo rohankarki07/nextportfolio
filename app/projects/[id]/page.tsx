@@ -65,6 +65,7 @@ const page: React.FC<PageProps> = ({ params }) => {
           <div className="body mt-3 card-text">{data.description}</div>
           {/* desc */}
           <div className="flex justify-evenly mt-8">
+            {/* tools  */}
             <div>
               <h2 className="font-bold">Tools</h2>
               <ul>
@@ -78,6 +79,7 @@ const page: React.FC<PageProps> = ({ params }) => {
                 )}
               </ul>
             </div>
+            {/* tech  */}
             <div>
               <h2 className="font-bold">Tech</h2>
               <ul>
@@ -88,6 +90,25 @@ const page: React.FC<PageProps> = ({ params }) => {
                     .map((tech, index) => <li key={index}>{tech}</li>)
                 ) : (
                   <li>No tech specified</li>
+                )}
+              </ul>
+            </div>
+            {/* link  */}
+            <div>
+              <h2 className="font-bold">Link</h2>
+              <ul>
+                {data.links ? (
+                  <li>
+                    <a
+                      href={data.links}
+                      target="_blank"
+                      className=" hover:underline"
+                    >
+                      Visit Live Site
+                    </a>
+                  </li>
+                ) : (
+                  <li>No links specified</li>
                 )}
               </ul>
             </div>
