@@ -67,15 +67,17 @@ const page: React.FC<PageProps> = ({ params }) => {
           <div className="flex justify-evenly mt-8">
             {/* tools  */}
             <div>
-              <h2 className="font-bold">Tools</h2>
               <ul>
                 {data.tool ? (
                   // Split the tool string by commas and map over the array
-                  data.tool
-                    .split(", ")
-                    .map((tool, index) => <li key={index}>{tool}</li>)
+                  data.tool.split(", ").map((tool, index) => (
+                    <>
+                      <h2 className="font-bold">Tools</h2>
+                      <li key={index}>{tool}</li>
+                    </>
+                  ))
                 ) : (
-                  <li>No tools specified</li>
+                  <></>
                 )}
               </ul>
             </div>

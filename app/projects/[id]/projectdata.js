@@ -36,11 +36,15 @@ export const projectdata = [
     tech: "React, Tailwind CSS",
     tool: "TMDB API",
   },
-
-  // {
-  //   name: "UnSplash Image Search",
-  //   category: "Image Searching",
-  //   logo: "/logo.svg",
-  // },
-  // { name: "TO-DO", category: "todo listing", logo: "/logo.svg" },
+  {
+    id: "smartdocs",
+    name: "Smart Docs",
+    category: "Document Management",
+    description:
+      "SmartDocs is a Google Docs clone developed using Next.js for the user interface, Liveblocks for real-time collaboration features, and styled with Tailwind CSS. The main goal of this project is to demonstrate expertise in building impactful real-time applications.",
+    logo: "/images/smartdocs.png",
+    detailimage: "/detailimage/smartdocs1.png",
+    links: "https://smartdocsrohan.vercel.app/",
+    tech: "React, Tailwind CSS, Clerk, Liveblocks",
+  },
 ];

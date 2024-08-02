@@ -20,7 +20,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} id="style-4">
         <div className="flex-grow md:flex px-6 body-text">
           <Sidebar />
           {isTopbarPresent ? (
