@@ -26,7 +26,7 @@ const Tech = () => {
               </ul>
             </div>
             <div>
-              <h3 className="h4 mb-2">Tools</h3>
+              <h3 className="h4 mb-2">Tools & Technology</h3>
               <ul className="flex flex-col gap-3">
                 <li>Git and GitHub</li>
                 <li>Vercel</li>
