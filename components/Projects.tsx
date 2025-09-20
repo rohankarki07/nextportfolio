@@ -11,7 +11,7 @@ const Projects = () => {
           <div key={index} className="w-full gap-12 rounded-md">
             <Link
               href={`/projects/${project.id}`}
-              className="flex items-center h-80 justify-center rounded-md p-14 background-surface drop-shadow-lg"
+              className="flex items-center h-80 justify-center rounded-md p-14 background-surface drop-shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
             >
               <Image
                 src={project.logo}
