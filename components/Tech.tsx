@@ -8,8 +8,8 @@ const Tech = () => {
         <h1 className="card-text">WORK EXPERIENCE</h1>
         <div className="flex flex-col justify-start items-start gap-1">
           <h4 className="h4">RiddhaSoft Pvt.Ltd.</h4>
-          <p>August 2023 - December 2023</p>
-          <p>Internship</p>
+          <p>August 2023 - December 2023 (Internship)</p>
+          <p>January 2024 - February 2025 (Full Time)</p>
         </div>
       </div>
       <div>
