@@ -3,6 +3,7 @@ import { Sahitya } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
+// import SnowfallWrapper from "@/components/Snowfall";
 
 const inter = Sahitya({ subsets: ["devanagari"], weight: "400" });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className} id="style-4">
+        {/* <SnowfallWrapper /> */}
         <div className="flex-grow md:flex px-6 body-text">
           <Sidebar />
           {isTopbarPresent ? (

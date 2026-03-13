@@ -8,10 +8,13 @@ const Education = () => {
         <div className="sm:w-1/2 w-full flex flex-col gap-4">
           <div>
             <h3 className="h3">London Metropolitan University</h3>
-            <p className="card-text h4">Islington College, Kathmandu</p>
+            <p>BSc (Hons) Computing</p>
+            <p>2022-2024</p>
           </div>
           <div>
-            <p>BSc (Hons) Computing</p>
+            <h3 className="h3">Victoria University</h3>
+            <p>Master of Applied Information Technology</p>
+            <p>2024-Present</p>
           </div>
         </div>
         <div className="sm:w-1/2 w-full flex justify-end flex-col gap-4 sm:flex-row items-start sm:items-end">
